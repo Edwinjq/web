@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.header { display: flex; align-items: center; justify-content: space-between;padding: 1rem 2rem;background-color: #f5f5f5;}.header__logo img { height: 40px;}
+.header__nav .nav__list { display: flex;  gap: 1.5rem;  list-style: none;  margin: 0;  padding: 0;}
+.nav__link { text-decoration: none; color: #333; font-weight: 600;}
+.header__busqueda {display: flex; gap: 0.5rem;}
+.busqueda__input { padding: 0.5rem; border: 1px solid #ccc;  border-radius: .3rem;}
+.busqueda__boton {padding: 0.5rem 1rem; border: none; background-color: #333; color: white; border-radius: .3rem;  cursor: pointer;}
+</style>
+</head>
+<body>
+    <header class="header">
+    <div class="header__logo">
+        <a href="#">
+            <img src="ipsum.jpg" alt="Logo">
+        </a>
+    </div>
+
+    <nav class="header__nav">
+        <ul class="nav__list">
+            <li><a href="#inicio" class="nav__link">Inicio</a></li>
+            <li><a href="#servicios" class="nav__link">Servicios</a></li>
+            <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <form class="header__busqueda" action="#" method="get">
+        <input type="text" name="q" placeholder="Buscar..." class="busqueda__input">
+        <button type="submit" class="busqueda__boton">Buscar</button>
+    </form>
+</header>
+
+
+</body>
+</html>
