@@ -15,6 +15,13 @@ header{
     
 }
 
+.text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 header div{
     display: flex;
     flex-direction: column;
@@ -35,17 +42,57 @@ nav li{
 }
 
 
-
  header img{
     margin-right: 20px;
     width:200px;
     height:200px;
     object-fit: cover;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
 
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
 
+.contacte{
+    background: white;
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: o 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button{
+    background-color: #3687e4;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.wireframes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.wireframes img{
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+}
 
 footer{
     background-color:#3687e4; 
