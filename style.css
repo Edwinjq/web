@@ -2,11 +2,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color:#F2F2F2;
 }
 
 header{
-    background-color:#3687e4; 
+    background-color:#5A7D9A; 
     color: black;
     padding: 20px;
 
@@ -50,6 +50,11 @@ nav li{
     border-radius: 50%; 
 }
 
+
+header h1{
+    color:aliceblue;
+}
+
 main{
     max-width: 1000px;
     margin: auto;
@@ -67,6 +72,15 @@ form{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.cv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.cv section{
+   width: 100%;
 }
 
 button{
@@ -95,7 +109,7 @@ button{
 }
 
 footer{
-    background-color:#3687e4; 
+    background-color:#5A7D9A; 
     color: white;
     text-align: center;
     padding: 15px;
