@@ -9,7 +9,15 @@ header{
     background-color:#3687e4; 
     color: black;
     padding: 20px;
-    text-align: center;
+
+    align-items: center;
+    display: flex;
+    
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -26,12 +34,15 @@ nav li{
     margin: 0px 10px;
 }
 
-img{
+
+
+ header img{
+    margin-right: 20px;
     width:200px;
     height:200px;
     object-fit: cover;
     border-radius: 50%;
-    text-align: left !important;
+    
 }
 
 
